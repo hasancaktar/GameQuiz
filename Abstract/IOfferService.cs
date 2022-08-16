@@ -11,7 +11,7 @@ namespace GameQuiz2.Abstract
     {
         void OfferDiscount(Offer offer, Games games);
         void OfferDelete(Offer offer, Games games);
-        Offer OfferUpdate(Games games);
+        void OfferUpdate(Games games);
 
     }
 }
